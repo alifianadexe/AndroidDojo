@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Dojo</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="red_name">Merah</string>
+    <string name="green_name">Hijau</string>
+    <string name="purple_name">Ungu</string>
+    <string name="yellow_name">Kuning</string>
+    <string name="blue_name">Biru</string>
+</resources>

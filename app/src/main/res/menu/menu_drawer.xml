@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/adexe"
+        android:title="Adexe"
+        android:icon="@mipmap/ic_launcher"
+        app:itemTextColor="#fff"
+        app:itemIconTint="@color/colorPrimaryDark"
+        ></item>
+
+    <item android:title="Card View"
+        android:id="@+id/card_view"
+        android:icon="@mipmap/ic_launcher"
+        ></item>
+
+    <item  android:title="Tab Layout"
+        android:id="@+id/tab_layout"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+
+    <item android:title="Snack Bar"
+        android:id="@+id/snackbar_layout"
+        android:icon="@mipmap/ic_launcher"
+        ></item>
+
+    <item
+        android:id="@+id/itm_toolbar"
+        android:title="Toolbar"
+        >
+        <menu>
+            <item android:title="Help"></item>
+            <item android:title="Setting"></item>
+            <item android:title="Quit"></item>
+        </menu>
+    </item>
+</menu>

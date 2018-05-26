@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_a1"
+                android:layout_width="77dp"
+                android:layout_height="70dp"
+                android:elevation="0dp"
+                android:src="@drawable/mate1"
+                android:transitionName="@string/red_name"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Amarah"
+                android:transitionName="judul"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_a2"
+                android:layout_width="78dp"
+                android:layout_height="70dp"
+                android:elevation="0dp"
+                android:src="@drawable/mate2"
+                android:transitionName="@string/yellow_name" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Egois"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="1.26"
+                android:elevation="0dp"
+                app:srcCompat="@android:color/holo_green_light" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Sombong"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="1.26"
+                android:elevation="0dp"
+                app:srcCompat="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Kikir"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="1.29"
+                app:srcCompat="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Iri Hati"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_sifat_manusia"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:theme="@style/PrimaryFlatButtonBlue"
+        android:text="Lawannya" />
+
+
+</LinearLayout>

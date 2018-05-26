@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/anim1"
+   >
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="240dp"
+        android:layout_height="380dp"
+        app:srcCompat="@drawable/background_2"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_hide"
+        android:theme="@style/PrimaryFlatButtonBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="14dp"
+        android:text="hide"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_resize"
+        android:theme="@style/PrimaryFlatButtonBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="resize"
+        android:layout_alignBaseline="@+id/btn_hide"
+        android:layout_alignBottom="@+id/btn_hide"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:theme="@style/PrimaryFlatButtonBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_resize"
+        android:layout_alignBottom="@+id/btn_resize"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="6dp"
+        android:text="Show" />
+</RelativeLayout>

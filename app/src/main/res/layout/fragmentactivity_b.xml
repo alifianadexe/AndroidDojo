@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="1.26"
+                android:elevation="0dp"
+                app:srcCompat="@android:color/holo_red_light"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Sabar"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="1.26"
+                android:elevation="0dp"
+                app:srcCompat="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Peduli"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="1.26"
+                android:elevation="0dp"
+                app:srcCompat="@android:color/holo_green_light" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Rendah Hati"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="1.26"
+                android:elevation="0dp"
+                app:srcCompat="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Dermawan"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="1.29"
+                app:srcCompat="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="4.00"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Lapang Dada"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
