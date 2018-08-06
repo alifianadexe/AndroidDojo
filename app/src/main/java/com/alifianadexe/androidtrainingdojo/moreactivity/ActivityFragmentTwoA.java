@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo.moreactivity;
+package com.alifianadexe.androidtrainingdojo.moreactivity;
 
 import android.content.Intent;
 import android.os.Build;
@@ -14,8 +14,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.quick.androidtrainingdojo.R;
-import com.quick.androidtrainingdojo.baseactivity.AppBaseActivity;
+import com.alifianadexe.androidtrainingdojo.R;
+import com.alifianadexe.androidtrainingdojo.baseactivity.AppBaseActivity;
 
 /**
  * Created by ditya on 5/24/18.

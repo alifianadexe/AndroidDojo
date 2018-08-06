@@ -1,8 +1,8 @@
-package com.quick.androidtrainingdojo;
+package com.alifianadexe.androidtrainingdojo;
 
 import android.os.Bundle;
 
-import com.quick.androidtrainingdojo.baseactivity.AppBaseActivity;
+import com.alifianadexe.androidtrainingdojo.baseactivity.AppBaseActivity;
 
 /**
  * Created by ditya on 5/22/18.

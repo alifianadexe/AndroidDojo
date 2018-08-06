@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo.fragment;
+package com.alifianadexe.androidtrainingdojo.fragment;
 
 import android.content.Intent;
 import android.support.v4.app.ActivityOptionsCompat;
@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.quick.androidtrainingdojo.R;
-import com.quick.androidtrainingdojo.moreactivity.ActivityFragmentTwoA;
+import com.alifianadexe.androidtrainingdojo.R;
+import com.alifianadexe.androidtrainingdojo.moreactivity.ActivityFragmentTwoA;
 
 /**
  * Created by ditya on 5/23/18.

@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo;
+package com.alifianadexe.androidtrainingdojo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

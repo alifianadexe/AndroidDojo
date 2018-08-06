@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo.fragment;
+package com.alifianadexe.androidtrainingdojo.fragment;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.quick.androidtrainingdojo.R;
+import com.alifianadexe.androidtrainingdojo.R;
 
 /**
  * Created by ditya on 5/23/18.

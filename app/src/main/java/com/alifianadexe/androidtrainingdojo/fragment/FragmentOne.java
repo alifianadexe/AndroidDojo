@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo.fragment;
+package com.alifianadexe.androidtrainingdojo.fragment;
 
 import android.os.Build;
 import android.support.design.widget.Snackbar;
@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.quick.androidtrainingdojo.R;
+import com.alifianadexe.androidtrainingdojo.R;
 
 /**
  * Created by ditya on 5/23/18.

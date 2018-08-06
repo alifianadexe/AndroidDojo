@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo.moreactivity;
+package com.alifianadexe.androidtrainingdojo.moreactivity;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
@@ -8,8 +8,8 @@ import android.transition.Transition;
 import android.transition.Explode;
 import android.transition.Slide;
 
-import com.quick.androidtrainingdojo.R;
-import com.quick.androidtrainingdojo.baseactivity.AppBaseActivity;
+import com.alifianadexe.androidtrainingdojo.R;
+import com.alifianadexe.androidtrainingdojo.baseactivity.AppBaseActivity;
 
 /**
  * Created by ditya on 5/24/18.

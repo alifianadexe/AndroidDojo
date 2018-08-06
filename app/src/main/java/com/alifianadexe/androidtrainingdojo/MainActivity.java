@@ -1,10 +1,10 @@
-package com.quick.androidtrainingdojo;
+package com.alifianadexe.androidtrainingdojo;
 
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.quick.androidtrainingdojo.baseactivity.AppBaseActivity;
+import com.alifianadexe.androidtrainingdojo.baseactivity.AppBaseActivity;
 
 public class MainActivity extends AppBaseActivity{
 

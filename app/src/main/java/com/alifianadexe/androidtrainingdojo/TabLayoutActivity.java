@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo;
+package com.alifianadexe.androidtrainingdojo;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -8,11 +8,11 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 
 
-import com.quick.androidtrainingdojo.baseactivity.AppBaseActivity;
+import com.alifianadexe.androidtrainingdojo.baseactivity.AppBaseActivity;
 
-import com.quick.androidtrainingdojo.fragment.FragmentOne;
-import com.quick.androidtrainingdojo.fragment.FragmentThree;
-import com.quick.androidtrainingdojo.fragment.FragmentTwo;
+import com.alifianadexe.androidtrainingdojo.fragment.FragmentOne;
+import com.alifianadexe.androidtrainingdojo.fragment.FragmentThree;
+import com.alifianadexe.androidtrainingdojo.fragment.FragmentTwo;
 
 import java.util.ArrayList;
 import java.util.List;

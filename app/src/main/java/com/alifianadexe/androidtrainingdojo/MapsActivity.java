@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo;
+package com.alifianadexe.androidtrainingdojo;
 
 /**
  * Created by ditya on 8/6/18.

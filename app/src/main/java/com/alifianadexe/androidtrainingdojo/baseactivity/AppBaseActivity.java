@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo.baseactivity;
+package com.alifianadexe.androidtrainingdojo.baseactivity;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -16,11 +16,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.quick.androidtrainingdojo.CardViewActivity;
-import com.quick.androidtrainingdojo.MapsActivity;
-import com.quick.androidtrainingdojo.R;
-import com.quick.androidtrainingdojo.RecycleViewActivity;
-import com.quick.androidtrainingdojo.TabLayoutActivity;
+import com.alifianadexe.androidtrainingdojo.CardViewActivity;
+import com.alifianadexe.androidtrainingdojo.MapsActivity;
+import com.alifianadexe.androidtrainingdojo.R;
+import com.alifianadexe.androidtrainingdojo.RecycleViewActivity;
+import com.alifianadexe.androidtrainingdojo.TabLayoutActivity;
 
 /**
  * Created by ditya on 5/22/18.

@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo;
+package com.alifianadexe.androidtrainingdojo;
 
 import org.junit.Test;
 

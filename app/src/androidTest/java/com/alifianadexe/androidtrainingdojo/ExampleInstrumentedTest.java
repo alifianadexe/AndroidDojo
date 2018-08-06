@@ -1,4 +1,4 @@
-package com.quick.androidtrainingdojo;
+package com.alifianadexe.androidtrainingdojo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
