@@ -52,4 +52,14 @@
         android:layout_marginRight="10dp"
         android:elevation="6dp"
         android:text="Show" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView7"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:text="Fragment One"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
 </RelativeLayout>

@@ -1,16 +1,14 @@
 package com.quick.androidtrainingdojo.baseactivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
-import android.support.design.widget.TabLayout;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,7 +17,9 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 import com.quick.androidtrainingdojo.CardViewActivity;
+import com.quick.androidtrainingdojo.MapsActivity;
 import com.quick.androidtrainingdojo.R;
+import com.quick.androidtrainingdojo.RecycleViewActivity;
 import com.quick.androidtrainingdojo.TabLayoutActivity;
 
 /**
@@ -28,14 +28,17 @@ import com.quick.androidtrainingdojo.TabLayoutActivity;
 
 public abstract class AppBaseActivity extends AppCompatActivity implements MenuItem.OnMenuItemClickListener{
 
+    // inisiasi
     private FrameLayout view_stub;
     private NavigationView navigationView;
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
     private Menu drawerMenu;
 
+
     @Override
     protected void onCreate(Bundle savedInstance){
+
         super.onCreate(savedInstance);
         super.setContentView(R.layout.app_base_layout);
 
@@ -45,12 +48,15 @@ public abstract class AppBaseActivity extends AppCompatActivity implements MenuI
 
         mDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, 0,0);
         drawerLayout.setDrawerListener(mDrawerToggle);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        // untuk membuat listener di setiap menu
         drawerMenu = navigationView.getMenu();
         for(int i = 0; i < drawerMenu.size(); i++) {
             drawerMenu.getItem(i).setOnMenuItemClickListener(this);
         }
+
     }
 
 
@@ -67,20 +73,27 @@ public abstract class AppBaseActivity extends AppCompatActivity implements MenuI
     }
 
 
-
+    /*  Disini bagian PENTING nya
+    *
+    *   Kita meng Override setiap setContentView()
+    *   agar setiap function ini dipanggil , kita menambahkan NavigationDrawer
+    *   kedalam setiap layout activity nya.
+    *
+    * */
 
     @Override
     public void setContentView(int resLayoutId){
         if(view_stub != null){
+
             LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
             ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.MATCH_PARENT);
             View stubView = inflater.inflate(resLayoutId, view_stub, false);
             view_stub.addView(stubView, lp);
+
         }
     }
-
 
     @Override
     public void setContentView(View view){
@@ -101,6 +114,7 @@ public abstract class AppBaseActivity extends AppCompatActivity implements MenuI
         return super.onOptionsItemSelected(item);
     }
 
+    // lalu disini tempat setiap function listener untuk setiap button menu.
     @Override
     public boolean onMenuItemClick(MenuItem item){
         switch (item.getItemId()){
@@ -110,6 +124,7 @@ public abstract class AppBaseActivity extends AppCompatActivity implements MenuI
             case R.id.card_view:
                 Intent intent = new Intent(getApplicationContext(), CardViewActivity.class);
                 startActivity(intent);
+
                 Snackbar.make(drawerLayout, "Adexe 4u!", Snackbar.LENGTH_SHORT).show();
                 break;
             case R.id.tab_layout:
@@ -120,6 +135,15 @@ public abstract class AppBaseActivity extends AppCompatActivity implements MenuI
             case R.id.snackbar_layout:
                 Snackbar.make(drawerLayout, "Adexe 4u!", Snackbar.LENGTH_SHORT).show();
                 break;
+            case R.id.recycle_view:
+                Intent intent2 = new Intent(getApplicationContext(), RecycleViewActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.location_layout:
+                Intent intent3 = new Intent(getApplicationContext(), MapsActivity.class);
+                startActivity(intent3);
+                break;
+
         }
         return false;
     }

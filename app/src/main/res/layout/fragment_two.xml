@@ -15,4 +15,13 @@
         android:textColor="@android:color/white"
         android:textSize="20sp"
         android:theme="@style/MyButton1" />
+    <!--<TextView-->
+        <!--android:id="@+id/textView8"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:text="Fragment Two"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
 </RelativeLayout>

@@ -20,19 +20,19 @@
         android:icon="@mipmap/ic_launcher">
     </item>
 
+    <item android:title="Recycle View"
+        android:id="@+id/recycle_view"
+        android:icon="@mipmap/ic_launcher"
+        ></item>
+
     <item android:title="Snack Bar"
         android:id="@+id/snackbar_layout"
         android:icon="@mipmap/ic_launcher"
         ></item>
 
-    <item
-        android:id="@+id/itm_toolbar"
-        android:title="Toolbar"
-        >
-        <menu>
-            <item android:title="Help"></item>
-            <item android:title="Setting"></item>
-            <item android:title="Quit"></item>
-        </menu>
-    </item>
+    <item android:title="Location"
+        android:id="@+id/location_layout"
+        android:icon="@mipmap/ic_launcher"
+        ></item>
+
 </menu>
